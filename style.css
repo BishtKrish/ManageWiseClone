@@ -1,0 +1,1704 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    background-color: #FDF2EC;
+
+}
+
+.navbar {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+
+}
+
+.navbar .menu {
+    display: flex;
+    gap: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #FDF2EC;
+
+}
+
+.navbar img {
+    height: 3rem;
+
+
+}
+.logo{
+    margin: 1rem .4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo h1{
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding-left: .5rem;
+}
+.navbar a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.navbar button {
+    height: 3rem;
+    width: 9rem;
+    border-radius: .7rem;
+    border: none;
+    background-color: white;
+    font-size: 1.1rem;
+
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+}
+
+.hii {
+
+    border: 1px solid gray;
+    padding: 5px;
+    width: 16rem;
+    text-align: center;
+    border-radius: .6rem;
+    color: #965EFF;
+    font-size: .8rem;
+    font-weight: 700;
+    background-color: white;
+}
+
+.hero h1 {
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: 500;
+
+}
+
+.hero span {
+    color: #FE8162;
+}
+
+.hero .hyy {
+    text-align: center;
+    color: #918F8E;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0 17rem;
+    margin-top: 1.5rem;
+
+
+}
+
+.hero .btn {
+
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+
+}
+
+.hero .btn1 {
+    height: 3.6rem;
+    width: 13rem;
+    border-radius: 1rem;
+    background-color: #8247FF;
+    border: none;
+    color: white;
+    font-size: 1.3rem;
+
+}
+
+.hero .btn2 {
+    height: 3.6rem;
+    width: 13rem;
+    border-radius: 1rem;
+    border: 1px solid gray;
+    font-size: 1.3rem;
+    background-color: white;
+
+}
+
+.bars {
+    display: none;
+}
+
+.cross {
+    margin-top: 10px;
+    font-size: 20px;
+    display: none;
+}
+
+.firstimage {
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstimage img {
+    width: 60%;
+}
+
+
+.feature {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+
+}
+
+.feature .hii {
+
+    border: 1px solid gray;
+    padding: 5px;
+    width: 10rem;
+    text-align: center;
+    border-radius: .6rem;
+    color: #965EFF;
+    font-size: .7rem;
+    font-weight: 600;
+    background-color: white;
+}
+
+.second {
+    width: 80%;
+}
+
+.second .hyy {
+    text-align: center;
+    color: #918F8E;
+    font-size: 1.2rem;
+    font-weight: 500;
+    background-color: white;
+
+
+}
+
+.second h1 {
+    background-color: white;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+
+}
+
+.second span {
+    color: #FE8162;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 4rem;
+    padding-bottom: 5rem;
+}
+
+.star {
+    padding: 0 2.5rem;
+    margin-top: 3rem;
+}
+
+.star img {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 1rem;
+}
+
+.card {
+    background-color: #EDEDFA;
+    border-radius: 1rem;
+    width: 50%;
+    margin-top: 3rem;
+}
+
+
+
+.card p {
+    font-size: 2.5rem;
+    line-height: 4rem;
+    padding: 1rem 2.5rem;
+    background-color: #EDEDFA;
+    padding-bottom: 1rem;
+}
+
+
+.card2 {
+    background: white;
+    border-radius: 1rem;
+    height: 28rem;
+    width: 40rem;
+    margin-top: 3rem;
+    border: 0.2px solid rgb(230, 229, 229);
+}
+
+.card2 img {
+    width: 100%;
+    height: 18rem;
+    background: white;
+    border-radius: 1rem;
+}
+
+.card2 h2 {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    background: white;
+    font-weight: 600;
+}
+
+.card2 p {
+    padding: 0 2rem;
+    color: #767575;
+    background: white;
+
+}
+
+
+
+
+.card3 {
+    background: white;
+    border-radius: 1rem;
+    height: 40rem;
+    width: 40rem;
+    margin-top: 3rem;
+    border: 0.2px solid rgb(230, 229, 229);
+}
+
+.card3 img {
+    width: 100%;
+    height: 32rem;
+    background: white;
+    border-radius: 1rem;
+}
+
+.card3 h2 {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    background: white;
+    font-weight: 600;
+}
+
+.card3 p {
+    padding: 0 2rem;
+    color: #767575;
+    background: white;
+
+}
+
+.card4 {
+    background: white;
+    border-radius: 1rem;
+    height: 36em;
+    width: 40rem;
+    margin-top: 3rem;
+    border: 0.2px solid rgb(230, 229, 229);
+}
+
+.card4 img {
+    width: 100%;
+    height: 30rem;
+    background: white;
+    border-radius: 1rem;
+}
+
+.card4 h2 {
+    padding: 0 2rem;
+    font-size: 1.5rem;
+    background: white;
+    font-weight: 600;
+}
+
+.card4 p {
+    padding: 0 2rem;
+    color: #767575;
+    background: white;
+
+}
+
+
+.card5 {
+    background: white;
+    border-radius: 1rem;
+    height: 36em;
+    width: 40rem;
+    margin-top: 3rem;
+    border: 0.2px solid rgb(230, 229, 229);
+}
+
+.card5 img {
+    width: 100%;
+    height: 30rem;
+    background: white;
+    border-radius: 1rem;
+}
+
+.card5 h2 {
+    padding: 0 2rem;
+    font-size: 1.5rem;
+    background: white;
+    font-weight: 600;
+}
+
+.card5 p {
+    padding: 0 2rem;
+    color: #767575;
+    background: white;
+}
+
+.container3 {
+    height: 100%;
+    width: 100%;
+    background-color: #1C1C1C;
+    padding: 5rem 2rem;
+    padding-top: 6rem;
+    padding-bottom: 0;
+}
+
+.container3 h3 {
+    color: #8247FF;
+    text-align: center;
+    background-color: white;
+    border-radius: .6rem;
+    padding: 5px;
+    width: 9rem;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-left: 3rem;
+
+}
+
+.container3 .big {
+    color: white;
+    font-size: 2.8rem;
+    font-weight: 500;
+    margin: 2rem 3rem;
+
+}
+
+.container3 .big span {
+    color: #FE8162;
+}
+
+.container3 .small {
+    color: #757474;
+    margin: 1rem 3rem;
+    font-size: 1.3rem;
+    width: 50%;
+}
+
+.container3 .temp {
+    width: 95%;
+    border-radius: 1.5rem;
+    background-color: #212121;
+    text-align: center;
+    display: flex;
+    padding: 3rem 2rem;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    border: 1px solid rgba(51, 51, 51, 0.399);
+
+}
+
+.temp .image {
+    padding: .75rem 1rem;
+    border-radius: 1rem;
+    background-color: #8247FF;
+
+    width: 4rem;
+}
+
+.image svg {
+    width: 100%;
+}
+
+.temp h2 {
+    color: white;
+}
+
+.temp p {
+
+    color: #757474;
+
+}
+
+.container3 .temp2 {
+    width: 95%;
+    border-radius: 1.5rem;
+    background-color: #212121;
+    text-align: center;
+    display: flex;
+    padding: 3rem 2rem;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    border: 1px solid rgba(51, 51, 51, 0.399);
+
+}
+
+.temp2 .image {
+    padding: .75rem 1rem;
+    border-radius: 1rem;
+    background-color: #8247FF;
+    width: 4rem;
+}
+
+.image svg {
+    width: 100%;
+}
+
+.temp2 h2 {
+    color: white;
+}
+
+.temp2 p {
+
+    color: #757474;
+
+}
+
+.container3 .temp3 {
+    width: 95%;
+    border-radius: 1.5rem;
+    background-color: #212121;
+    text-align: center;
+    display: flex;
+    padding: 3rem 2rem;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    border: 1px solid rgba(51, 51, 51, 0.399);
+
+}
+
+.temp3 h2 {
+    color: white;
+}
+
+.temp3 .image {
+    padding: .75rem 1rem;
+    border-radius: 1rem;
+    background-color: #8247FF;
+    width: 4rem;
+}
+
+.image svg {
+    width: 100%;
+}
+
+.temp3 p {
+    color: #757474;
+}
+
+.container3 .tools {
+    margin-top: 19rem;
+    text-align: center;
+    padding: 0 20rem;
+}
+
+.container3 .tools h3 {
+    color: #8247FF;
+    text-align: center;
+    background-color: white;
+    border-radius: .6rem;
+    padding: 2px;
+    font-weight: 500;
+    font-size: .9rem;
+    margin-left: 12rem;
+
+}
+
+.container3 .tools h1 {
+    color: white;
+    font-size: 2.4rem;
+    font-weight: 500;
+    padding: 1rem 0;
+}
+
+.container3 .tools h1 span {
+    color: #FE8162;
+}
+
+.container3 .tools p {
+    color: #767575;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 0 4rem;
+}
+
+.container3 .pic {
+    text-align: center;
+    width: 100%;
+    margin-top: 6rem;
+}
+
+.container3 .pic img {
+    width: 50%;
+    margin-top: 1rem;
+
+
+
+}
+
+.container4 {
+    width: 100%;
+    background-color: white;
+    height: 100%;
+    padding-top: 6rem;
+}
+
+.container4 .faq {
+    margin-left: 6rem;
+
+}
+
+.container4 .faq h4 {
+    color: #8247FF;
+    text-align: center;
+    padding-top: 6rem;
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: .3rem;
+    padding: 1px;
+    width: 5rem;
+    font-weight: 500;
+    font-size: .9rem;
+
+}
+
+.container4 .faq h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    width: 30%;
+}
+
+.container4 .faq h1 span {
+    color: #FE8162;
+
+}
+
+.container4 .faq p {
+    color: #757474;
+    width: 40%;
+    font-size: 1rem;
+}
+
+.container4 .chit {
+    border-radius: .8rem;
+    margin: 2rem 5rem;
+    background-color: #F7F8FD;
+    
+}
+.cross2{
+    display: none;
+}
+.chit  .para{
+    display: none;
+    font-size: 1rem;
+    padding: 0 2rem;
+    color: #777676;
+}
+
+
+.container4 .chit .plus {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    align-items: center;
+    
+   
+}
+
+.container4 .chit .plus i {
+    color: #8247FF;
+    font-size: 24px;
+
+}
+
+.container4 .chit .plus h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+.container4 .chit {
+    border-radius: .8rem;
+    margin: 2rem 5rem;
+    background-color: #F7F8FD;
+}
+
+.container4 .chit .plus {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    align-items: center;
+}
+
+.container4 .chit .plus i {
+    color: #8247FF;
+    font-size: 24px;
+}
+
+.container4 .chit .plus h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+.container4 .chit {
+    border-radius: .8rem;
+    margin: 2rem 5rem;
+    background-color: #F7F8FD;
+}
+
+.container4 .chit .plus i {
+    color: #8247FF;
+    font-size: 24px;
+}
+
+.container4 .chit .plus {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    align-items: center;
+}
+
+.container4 .chit .plus h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+.container4 .chit {
+    border-radius: .8rem;
+    margin: 2rem 5rem;
+    background-color: #F7F8FD;
+}
+
+.container4 .chit .plus {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    align-items: center;
+}
+
+.container4 .chit .plus i {
+    color: #8247FF;
+    font-size: 24px;
+
+}
+
+.container4 .chit .plus h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+.container4 .chit {
+    border-radius: .8rem;
+    margin: 2rem 5rem;
+    background-color: #F7F8FD;
+}
+
+.container4 .chit .plus {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    align-items: center;
+}
+
+.container4 .chit .plus i {
+    color: #8247FF;
+    font-size: 24px;
+}
+
+.container4 .chit h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.container5 {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding-top: 6rem;
+}
+
+.container5 .price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: .5rem;
+    padding: 1rem 7rem;
+}
+
+.container5 .price h4 {
+    color: #8247FF;
+    text-align: center;
+    border: 1px solid #E6DAFF;
+    background-color: white;
+    border-radius: .3rem;
+    padding: 1px;
+    width: 7rem;
+    font-weight: 600;
+    font-size: .8rem;
+
+}
+
+.container5 .price h4 span {
+    color: #14D575;
+    padding: 0 .5rem;
+    font-size: 1.2rem;
+}
+
+.container5 .price h1 {
+    font-size: 2.7rem;
+    font-weight: 500;
+}
+
+.container5 .price h1 span {
+    color: #FE8162;
+}
+
+.container5 .price p {
+    padding: 0 16rem;
+    font-size: 1.3rem;
+    color: #757474;
+}
+
+.container5 .price .port {
+    width: 50%;
+    margin-top: 2.5rem;
+    border-radius: 2rem;
+    padding: 2rem 2.5rem;
+    background-color: #EDEDFA;
+}
+
+.container5 .price .port .free {
+
+    color: #FE8162;
+    text-align: center;
+    background-color: white;
+    border-radius: .3rem;
+    width: 5rem;
+    font-weight: 500;
+    font-size: .7rem;
+
+}
+
+.container5 .price .port p {
+    padding: .5rem 0;
+    font-size: 1rem;
+}
+
+.container5 .price .port p i {
+    color: #4BD784;
+    font-size: 1.2rem;
+    padding: 0 1rem;
+
+}
+
+.container5 .price .port h1 span {
+    font-size: 1rem;
+    color: #474748;
+}
+
+.container5 .price .port button {
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    margin-top: 6rem;
+    border-radius: 1rem;
+    background-color: white;
+    font-size: 1.3rem;
+
+
+}
+
+.container5 .price .port2 {
+    width: 50%;
+    margin-top: 2.5rem;
+    height: 30rem;
+    border-radius: 2rem;
+    padding: 2rem 2.5rem;
+    background-color: #1C1C1C;
+}
+
+.container5 .price .port2 .free2 {
+
+    color: #FE8162;
+    text-align: center;
+    background-color: white;
+    border-radius: .3rem;
+    width: 5rem;
+    font-weight: 500;
+    font-size: .7rem;
+
+}
+
+.container5 .price .port2 p {
+    padding: .5rem .3rem;
+    font-size: 1rem;
+}
+
+.container5 .price .port2 p i {
+    color: #4BD784;
+    font-size: 1.2rem;
+    padding: 0 1rem;
+
+}
+
+.container5 .price .port2 h1 {
+    color: #EDEDFA;
+}
+
+.container5 .price .port2 h1 span {
+    font-size: 1rem;
+    color: white;
+}
+
+.container5 .price .port2 button {
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    color: white;
+    background-color: #8247FF;
+    font-size: 1.3rem;
+
+}
+
+.section {
+    width: 100%;
+    background-color: white;
+    height: 100%;
+    padding-top: 6rem;
+}
+
+.section .test {
+    margin-left: 4rem;
+
+}
+
+.section .test h4 {
+    color: #8247FF;
+    text-align: center;
+    padding-top: 6rem;
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: .3rem;
+    padding: 1px;
+    width: 10rem;
+    font-weight: 500;
+    font-size: .9rem;
+
+}
+
+.section .test h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    width: 70%;
+}
+
+.section .test h1 span {
+    color: #FE8162;
+
+}
+
+.section .test p {
+    color: #757474;
+    width: 55%;
+    font-size: 1.3rem;
+}
+.container6{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-top: 5rem;
+    gap: 1.5rem;
+  
+
+}
+
+.container6 .pro p{
+    padding: 3rem 3rem;
+    font-size: 1.1rem;
+}
+.container6 .pro .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+
+.container6 .pro .image img{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+.container6 .pro .image .write{
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+
+}
+.container6 .pro .image h1{
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.container6 .pro .image h2{
+    font-size: 1.1rem;
+    color: #767575;
+    font-weight: 500;
+}
+
+.container6 .pro{
+    border: 1px solid gray;
+    border-radius: 1.5rem;
+    width: 30rem;
+    height: 25rem;
+    /* animation: scroll 12s linear infinite; */
+   
+}
+
+.container6 .pro2{
+    border: 1px solid gray;
+    border-radius: 1.5rem;
+    height: 22rem;
+    width: 28rem;
+    /* animation: scroll 12s linear infinite; */
+   
+    
+
+}
+
+
+.container6 .pro2 p{
+    padding: 3rem 3rem;
+    font-size: 1.05rem;
+
+}
+.container6 .pro2 .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 2rem;
+
+   
+}
+.container6 .pro2 .image img{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+.container6 .pro2 .image .write{
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+    
+
+}
+.container6 .pro2 .image h1{
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.container6 .pro2 .image h2{
+    font-size: 1.1rem;
+    color: #767575;
+    font-weight: 500;
+}
+/* @keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+} */
+
+
+.container7{
+    background-color: #FFFFFF;
+    border: 1px solid rgb(230, 229, 229) ;
+    border-radius: 2rem;
+   
+    margin-top: 10rem;
+}  
+
+.container7 .miss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container7 .miss h4{
+    color: #8247FF;
+    border: 1px solid rgb(230, 229, 229);
+    width: 9rem;
+    height: 1.8rem;
+    border-radius: .5rem;
+    font-size: .8rem;
+    font-weight: 600;
+    margin-top: 5rem;
+    text-align: center;
+    padding: .3rem 0;
+}
+
+.container7 .miss h1{
+    font-size: 2.5rem;
+    padding: 1rem 1rem;
+    font-weight: 500;
+}
+.container7 .miss h1 span{
+    color: #FE8162;
+}
+.container7 .miss p{
+    font-size: 1.2rem;
+    color: #757474;
+    width: 58%;
+    text-align: center;
+    padding: 0 1rem;
+}
+.container7 .miss button{
+    width: 13rem;
+    height: 3.6rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: #8247FF;
+    font-size: 1.4rem;
+    color: white;
+    margin-top: 2.5rem;
+}
+
+.container7 .miss h3{
+    color: #8247FF;
+    border: 1px solid rgb(230, 229, 229);
+    width: 15rem;
+    height: 3rem;
+    border-radius: .5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 5rem;
+    text-align: center;
+    padding: .3rem 0;
+
+}
+.container7 .miss h3 span{
+    color: #1C1C1C;
+  
+}
+
+.container7 .miss img{
+    width: 50%;
+    padding: 1rem 0;
+}
+
+
+.footer{
+    
+    margin: 0 4rem;
+    margin-top: 10rem;
+}
+.footer .wise
+{
+    display: flex;
+    justify-content: space-between;
+}
+.footer .wise .manage{
+    display: flex;
+
+}
+.footer img{
+    height: 3rem;
+}
+.footer h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: .5rem .7rem;
+    
+}
+.footer .wise .last p{
+    padding: .4rem 0;
+}
+.last2{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(230, 229, 229);
+    border-radius: 1rem;
+    height: 6rem;
+    margin-top: 6rem;
+    text-align: center;
+   padding-top: 2.5rem;
+}
+.footer .last2 .fa i{
+    padding: 0 .5rem;
+    font-size: 1.5rem;
+}
+.footer .last p{
+    padding: 2rem 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        height: 100%;
+        align-items: flex-start;
+    }
+
+    .menu {
+        position: absolute;
+        top: -100%;
+        overflow: hidden;
+        flex-direction: column;
+        width: 100vw;
+        margin-top: 11vh;
+        gap: 1rem !important;
+        transition: top .5s ease-in-out;
+        
+    }
+
+    .bars {
+        display: block;
+        margin-top: 20px;
+        font-size: 2rem;
+
+    }
+.cross{
+    font-size: 2rem;
+}
+    .hero .hyy {
+        padding: 0;
+    }
+
+    .hero h1 {
+        font-size: 3.3rem;
+
+    }
+.logo{
+    margin: 1rem .4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo h1{
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding-left: .5rem;
+}
+    .hero .btn {
+        padding: 0 1.5rem;
+        flex-direction: column;
+    }
+
+    .hero .btn1,
+    .hero .btn2 {
+        width: 100%;
+    }
+
+    .second {
+        width: 100%;
+    }
+
+    .second .hyy {
+        width: 100%;
+    }
+
+    .container2 {
+        padding: 3rem 2rem;
+    }
+
+    .firstimage img {
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+        height: 100%;
+    
+    }
+
+    .card p {
+        font-size: 1.2rem;
+        line-height: normal;
+        font-weight: 500;
+        padding: 3rem 2rem;
+        margin: 0 1rem;
+    }
+
+    .card2 {
+        width: 100%;
+        height: 50%;
+    }
+
+    .card2 h2 {
+        font-size: 1rem;
+
+
+    }
+
+    .card2 p {
+        font-size: .9rem;
+        padding-bottom: 1.3rem;
+        margin: 0 1rem;
+
+    }
+
+    .card3 {
+        width: 100%;
+        height: 50%;
+    }
+
+    .card3 img {
+        height: 50%;
+
+    }
+
+    .card3 h2 {
+        font-size: 1rem;
+
+    }
+
+    .card3 p {
+        font-size: .8rem;
+        padding-bottom: 1.3rem;
+        margin: 0 1rem;
+
+    }
+
+    .card4 {
+        width: 100%;
+        height: 50%;
+    }
+
+    .card4 img {
+        height: 50%;
+
+    }
+
+    .card4 h2 {
+        font-size: 1rem;
+
+    }
+
+    .card4 p {
+        font-size: .8rem;
+        padding-bottom: 1.3rem;
+        margin: 0 1rem;
+    }
+
+
+    .card5 {
+        width: 100%;
+        height: 50%;
+    }
+
+    .card5 img {
+        height: 50%;
+
+    }
+
+    .card5 h2 {
+        font-size: 1rem;
+
+    }
+
+    .card5 p {
+        font-size: .8rem;
+        padding-bottom: 1.3rem;
+        margin: 0 1rem;
+
+    }
+
+    .container3 {
+        padding: 2rem 1rem;
+    }
+
+    .container3 h3 {
+        margin: 0;
+    }
+
+    .container3 .big {
+
+        width: 100%;
+        font-size: 2rem;
+        margin: 0;
+
+    }
+
+    .container3 .small {
+        margin: 1rem 0;
+        width: 100%;
+        font-size: 1rem;
+
+    }
+
+    .container3 .temp {
+        width: 100%;
+        padding: 1rem 1rem;
+
+    }
+
+    .temp p {
+        font-size: .9rem;
+    }
+
+    .temp h2 {
+        font-size: 1.2rem;
+    }
+
+
+    .container3 .temp2 {
+        width: 100%;
+        padding: 1rem 1rem;
+
+    }
+
+    .temp2 p {
+        font-size: .9rem;
+    }
+
+    .temp2 h2 {
+        font-size: 1.2rem;
+    }
+
+    .container3 .temp3 {
+        width: 100%;
+        padding: 1rem 1rem;
+
+    }
+
+    .temp3 p {
+        font-size: .9rem;
+    }
+
+    .temp3 h2 {
+        font-size: 1.2rem;
+    }
+
+
+
+    .container3 .tools {
+        padding: 0;
+    }
+
+    .container3 .tools h3 {
+        margin: 0 auto;
+    }
+
+    .container3 .tools h1 {
+        letter-spacing: -2px;
+        line-height: 1.2;
+        font-size: 2rem;
+
+    }
+
+    .container3 .pic img {
+        height: 100%;
+        width: 100%;
+
+
+    }
+
+    .container4 .faq {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 0;
+        padding-top: 5rem;
+    }
+
+    .container4 .faq h1 {
+        line-height: 1;
+        font-size: 2.5rem;
+        padding: 1rem 5rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .container4 .faq p {
+        width: 100%;
+        text-align: center;
+        padding: 0 .9rem;
+        font-size: 1rem;
+    }
+
+    .container4 {
+        padding: 0 1rem;
+    }
+
+    .container4 .chit {
+        width: 100%;
+        margin: 2rem 0;
+
+    }
+
+    .container4 .chit .plus {
+        padding: 1rem 1rem;
+    }
+
+    .container4 .chit .plus h2 {
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+
+    .container4 .chit {
+        width: 100%;
+        margin: 2rem 0;
+
+    }
+
+    .container4 .chit .plus {
+        padding: 1rem 1rem;
+    }
+
+    .container4 .chit .plus h2 {
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+
+    .container4 .chit {
+        width: 100%;
+        margin: 2rem 0;
+
+    }
+
+    .container4 .chit .plus {
+        padding: 1rem 1rem;
+    }
+
+    .container4 .chit .plus h2 {
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+
+    .container4 .chit {
+        width: 100%;
+        margin: 2rem 0;
+
+    }
+
+    .container4 .chit .plus {
+        padding: 1rem 1rem;
+    }
+
+    .container4 .chit .plus h2 {
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+
+    .container4 .chit {
+        width: 100%;
+        margin: 2rem 0;
+
+    }
+
+    .container4 .chit .plus {
+        padding: 1rem 1rem;
+    }
+
+    .container4 .chit .plus h2 {
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+
+
+    
+    .container5 .price {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 0;
+        padding: 0;
+        padding-top: 5rem;
+    }
+    .container5 .price h1 {
+        line-height: 1.2;
+        font-size: 1.6rem;
+        padding: 1rem 5rem;
+        width: 100%;
+        text-align: center;
+    }
+    .container5 .price p {
+        width: 100%;
+        text-align: center;
+        padding: 0 .9rem;
+        font-size: 1.2rem;
+
+    }
+    .container5 .price .port{
+        width: 90%;
+        padding: 0 1rem;
+       
+    }
+    .container5 .price .port .free{
+        text-align: center;
+        margin-top: 3rem;
+        margin-left: 1rem;
+    }
+    .container5 .price .port h1{
+       
+       text-align: left;
+       padding: 1rem 1rem;
+    }
+    .container5 .price .port button{
+        margin-bottom: 3rem;
+        margin-left: 1rem;
+    }
+    .container5 .price .port p{
+        text-align: left;
+        padding: .5rem 0;
+       
+    }
+    .container5 .price .port p i{
+        padding: 0 1rem;
+        text-align: left;
+    }
+    .container5 .price .port2{
+        width: 90%;
+        padding: 0 1rem;
+       
+    }
+    .container5 .price .port2 .free2{
+        text-align: center;
+        margin-top: 3rem;
+        margin-left: 1rem;
+    }
+    .container5 .price .port2 h1{
+       
+       text-align: left;
+       padding: 1rem 1rem;
+    }
+    .container5 .price .port2 button{
+        margin-bottom: 3rem;
+        margin-left: 1rem;
+    }
+    .container5 .price .port2 p{
+        text-align: left;
+        padding: .5rem 0;
+       
+    }
+    .container5 .price .port2 p i{
+        padding: 0 1rem;
+        text-align: left;
+    }
+    .section .test{
+        margin-left: 2.1rem;
+    }
+    .section .test h1{
+        font-size: 1.8rem;
+        margin-top: 1.2rem;
+        line-height: 2.2rem;
+    }
+    .section .test p{
+        width: 100%;
+        font-size: 1rem;
+    }
+.container6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.container6 .pro{
+    width: 100%;
+  
+}
+.container6 .pro2{
+    width: 100%;
+}
+    .container7{
+      margin: 2rem 1rem;
+      
+    }
+    .container7 .miss h1{
+        text-align: center;
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    .container7 .miss p{
+        font-size: 1rem;
+    }
+    .container7 .miss img{
+        width: 96%;
+        padding: 1rem 0;
+    }
+    .footer .wise{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .footer .wise .last{
+        margin-top: 2rem;
+    }
+    .footer .last2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+       
+    }
+    .footer .last2 p{
+        padding-top: 1.2rem;
+    }
+    .footer .fa{
+        padding: 1.7rem;
+    }
+}
